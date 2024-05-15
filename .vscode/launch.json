@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Derby ij",
+            "request": "launch",
+            "mainClass": "org.apache.derby.tools.ij",
+            "projectName": "Derby"
+        },
+
+        {
+            "type": "java",
+            "name": "Derby Server",
+            "request": "launch",
+            "mainClass": "org.apache.derby.drda.NetworkServerControl",
+            "args": "start -h localhost",
+            "projectName": "Derby"
+        },
+
+        {
+            "type": "java",
+            "name": "Derby Main",
+            "request": "launch",
+            "mainClass": "org.example.Library",
+            "projectName": "Derby"
+        }
+    ]
+}
